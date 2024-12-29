@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Orange2"
+    android:orientation="vertical"
+    tools:context=".CreateJobPost">
+
+    <EditText
+        android:id="@+id/etJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:hint="Job Title"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:gravity="top"
+        android:hint="Job Description"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:padding="16dp"
+        android:textColorHint="@android:color/white" />
+
+    <!-- Job Location -->
+    <EditText
+        android:id="@+id/etJobLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:textColor="@color/white"
+        android:hint="Location"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etJobType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:hint="Job Type"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etJobSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:textColor="@color/white"
+        android:hint="Job Salary"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnPostJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/azure"
+        android:padding="16dp"
+        android:text="Post Job"
+        android:textColor="@color/Orange2" />
+
+</LinearLayout>

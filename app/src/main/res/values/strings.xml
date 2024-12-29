@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WKU JOB POST</string>
+<string name="about_us_url">https://www.example.com/about</string>
+<string name="faq_url">https://www.example.com/faq</string>
+<string name="contact_support_url">https://www.example.com/contact</string>
+<string name="privacy_policy_url">https://www.example.com/privacy-policy</string>
+<string-array name="language_entries">
+    <item>English</item>
+    <item>Spanish</item>
+    <item>French</item>
+    <item>German</item>
+</string-array>
+<string-array name="language_values">
+    <item>en</item>
+    <item>es</item>
+    <item>fr</item>
+    <item>de</item>
+</string-array>
+</resources>
+

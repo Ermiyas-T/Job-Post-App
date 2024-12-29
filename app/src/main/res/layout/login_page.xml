@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@raw/testlogin"
+    >
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/baseline_person_24"
+        android:layout_marginBottom="24dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/VeryLightBlue1"
+        android:padding="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rectangle"
+        android:hint="Email"
+        android:id="@+id/login_et_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/VeryLightBlue1"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rectangle"
+        android:hint="Password"
+        android:id="@+id/login_et_password"/>
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/Orange2"
+        android:padding="15dp"
+        android:text="Login"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/VeryLightBlue1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:text="OR"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/login_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/royalblue"
+        android:padding="15dp"
+        android:text="Register"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/VeryLightBlue1" />
+
+</LinearLayout>
